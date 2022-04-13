@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    text-decoration: none;
+}
+
+.freelancer{
+    min-height: 100vh;
+    width:100vw;
+    text-align: center;
+    background-color: #fff;
+}
+
+.freelancer .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+
+.container{
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+
+}
+
+.row .card-price{
+    width: 40rem;
+    height: 50rem;
+    padding: 10px 0;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #ee20d6 0%, #0a2fb6 100%);
+    border-radius: 15px;
+    box-shadow: 2px 5px 15px black;
+    transition: transform 0.3s;
+    flex-wrap: wrap;
+}
+
+.row .card-price:hover{
+    transform: scale(1.050);
+}
+
+.row .card-price .card-price-title{
+    padding: 30px 20px;
+    border-bottom: 2px solid gray;
+}
+
+.row .card-price .card-price-title h2{
+    font-size: 45px;
+    padding-bottom: 15px;
+    color: yellow;
+}
+
+.row .card-price .card-price-title p span{
+    font-size: 50px;
+    padding: 0 5px;
+    color: #fff;
+}
+
+.row .card-price .card-price-content ul{
+    padding: 10px 30px;
+    padding-bottom: 20px;
+}
+
+.row .card-price .card-price-content ul li{
+    font-size: 10px;
+    list-style: none;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.row .card-price .card-price-content ul li i{
+    margin-right: 4px;
+}
+
+.row .card-price .card-price-content button{
+    width: 120px;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.row .card-price .card-price-content button:hover{
+    background: #17ead9;
+    letter-spacing: 1.2px;
+}
+
+.row .card-price .card-price-content button a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}

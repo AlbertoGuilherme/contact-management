@@ -1,0 +1,40 @@
+img {
+    width: 1500px;
+    height: 800px;
+}
+
+.back{
+    background-image: url("http://localhost/sisges/public/imgs/home.svg");
+   background-position: right top;
+   padding: 100px;
+   background-repeat: no-repeat;
+   background-color: rgb(0, 0, 0.1);
+}
+
+.clear{
+    clear: both;
+}
+
+.color-white{
+    color: #fff;
+}
+
+.slide{
+    padding: 130px;
+}
+
+
+/*media query*/
+
+@media only screen and (max-width: 990px){
+    .back{
+         background-image: url("http://localhost/sisges/public/imgs/home.svg");
+        background-position: center ;
+     }
+}
+@media only screen and (max-width: 767px){
+    .back{
+        background-image: url("http://localhost/sisges/public/imgs/home.svg");
+       background-position: center ;
+    }
+}
